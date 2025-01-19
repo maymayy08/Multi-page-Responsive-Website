@@ -134,7 +134,7 @@ h1::after {
 }
 
 
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 790px) {
     .navbar a {
       float: none;
       display: block;
