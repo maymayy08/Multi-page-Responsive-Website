@@ -140,6 +140,7 @@ h1::after {
       display: block;
     }
     .box-img { 
+      display: block;
       position: relative;   
       left: -26px;
     }
