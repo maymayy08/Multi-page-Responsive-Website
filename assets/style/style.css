@@ -139,18 +139,16 @@ h1::after {
       float: none;
       display: block;
     }
-    #box-1-img, #box-2-img, #box-3-img {
-      justify-content: center;
-      height: 100%;
-      width: 100%;
+    .box-img { 
+      position: relative;   
+      left: -26px;
     }
     .hero-box-model-text {
       justify-content: center;
       display: block;
     }
-    .about-summary {
-      display: block;
-      width: 45%;
+    .about-summary { 
+      width: 30%;
       padding: 10px;
     }
 
