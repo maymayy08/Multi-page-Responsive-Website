@@ -8,6 +8,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: beige;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -88,6 +89,7 @@ h1::first-letter {
   flex: 0 0 100px;  
   height: 150px; 
   width: 300px; 
+  flex-wrap: nowrap;
   flex-direction: row; 
   align-items: center;
   border-style: groove;
@@ -217,7 +219,7 @@ footer {
   background-color : dodgerblue;
 }
 
-  @media screen and (max-width: 790px) {
+  @media screen and (max-width: 768px) {
     .navbar a {
       float: none;
       display: block;
@@ -243,7 +245,8 @@ footer {
 
     .about-model img {
       margin-bottom: 200px;
-      position: sticky;
+      float: none;
+
   
     }
     .about-quote {
