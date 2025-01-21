@@ -250,14 +250,19 @@ footer {
     
   } 
 
+  .portrait-img {
+    margin-left: 10px;
+  }
+
     .about-summary { 
-      width: 30%;
-      padding: 10px;
-      bottom: 305px;
+      width: 200px;
+      padding: 20px;
+      bottom: 280px;
+      left: 225px;
     }
 
     .summary-text  {
-      margin: 0 0 10px;
+      margin: 0;
       font-size: 12px;
     }
 
