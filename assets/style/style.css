@@ -128,7 +128,6 @@ h1::first-letter {
   background-color: #fff;
   border-radius: 15px;
   box-sizing: border-box;
-  -webkit-overflow-scrolling: touch;
   bottom: 225px;
   left: 280px;
   
@@ -226,7 +225,7 @@ footer {
 }
 
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 780px) {
     .navbar a {
       float: none;
       display: block;
