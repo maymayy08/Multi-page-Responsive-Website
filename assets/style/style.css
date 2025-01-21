@@ -226,7 +226,7 @@ footer {
   background-color : dodgerblue;
 }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {}
     .navbar a {
       float: none;
       display: block;
@@ -270,5 +270,5 @@ footer {
     .portrait2-img { 
       margin-left: 280px;
       
-    }
+    } 
   }
