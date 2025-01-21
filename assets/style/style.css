@@ -121,7 +121,6 @@ h1::first-letter {
 .about-summary {
   display: flex;
   position: relative;
-  z-index: 1;
   width: 50%;
   height: 100%;
   padding: 0px;
