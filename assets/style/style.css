@@ -226,25 +226,30 @@ footer {
   background-color : dodgerblue;
 }
 
-  @media screen and (max-width: 768px) {}
+
+  @media screen and (max-width: 768px) {
     .navbar a {
       float: none;
       display: block;
     }
 
-    .hero-box-model-img{ 
-      flex-direction: column;
-      gap: 10px;
+    .hero-box-model-img {  
+      flex-direction: column; 
+      gap: 10px; 
+    } 
+
+    .box-img {  
+    width: 115px; 
+    height: 10px; 
     }
 
-    .box-img { 
-      width: 115px;
-      height: 10px;
+    .hero-box-model p { 
+    justify-content: center; 
+    display: block; 
+    color: #000;
+    
+  } 
 
-    .hero-box-model-text {
-      justify-content: center;
-      display: block;
-    }
     .about-summary { 
       width: 30%;
       padding: 10px;
