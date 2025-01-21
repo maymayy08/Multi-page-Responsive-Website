@@ -253,9 +253,10 @@ footer {
     .about-summary { 
       width: 30%;
       padding: 10px;
+      bottom: 305px;
     }
 
-    .about-summary p {
+    .summary-text  {
       margin: 0 0 10px;
       font-size: 12px;
     }
