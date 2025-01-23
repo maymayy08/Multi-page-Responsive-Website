@@ -226,7 +226,7 @@ footer {
   margin-top: 270px;
   width: 100%;
   bottom: 0;
-  padding: 0;
+  padding: 6px;
   font-weight: bold;
   background-color : dodgerblue;
 }
@@ -247,6 +247,7 @@ footer {
   border-radius: 15px;
   margin: 0 auto;
 }
+
 .form-wrapper {
   position: var(--secondary-position);
   left: 650px;
