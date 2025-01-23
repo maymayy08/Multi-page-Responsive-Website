@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="./assets/style/style.css">
     <title>May's Origami</title>
 </head>
+<!-- Main -->
 <main>
 <body>
+    <!-- Nav Bar -->
     <nav class="navbar">
-        <a class="active" href="./index.html">Home</a>
-        <a href="./about.html">About</a>
-        <a href="./recipe.html">Recipe</a>
-        <a href="./contact.html">Contact</a>
-        <input type="search" id="search-bar" name="search-bar" placeholder="Search.." />
+        <img src="./assets/images/logo.jpeg" alt="logo" width="70px" height="70px" />
+        <a class="active" href="./index.html"><i class="fa fa-home"></i> Home</a>
+        <a href="./about.html"><i class="fa fa-user"></i> About</a>
+        <a href="./recipe.html"><i class="fa fa-book"></i> Recipe</a>
+        <a href="./contact.html"><i class="fa fa-address-book-o"></i> Contact</a>
+        <div class="search-container">
+        <input type="search" id="search-bar" name="search-bar" placeholder="Search..">
+        <i class="fa fa-search"></i>
+        </div>
     </nav>
-    
+    <!-- Recipe Cards -->
     <h1>Recipes</h1>
 <div class="cards-wrapper">
 <div class="card">
@@ -163,8 +169,6 @@
 <button type="submit" id="card-btn">View Recipe</button>
 </div>
 
-
-
 <div class="card">
     <img src="./assets/images/hk-porkchop-rice.jpeg" alt="fish" width="200px" height="200px" class="card-image"/>
     <h3 class="card-title">Hong Kong Baked Pork Chop Fried Rice</h3>
@@ -200,6 +204,7 @@
 </p>
 <button type="submit" id="card-btn">View Recipe</button>
 </div>
+<!-- Footer -->
 <footer>
     <p>&copy Copyright 2025 May Guan</p>
 </footer>
