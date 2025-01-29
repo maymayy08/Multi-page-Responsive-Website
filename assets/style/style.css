@@ -449,10 +449,10 @@ h3 {
   }
 
     .about-summary { 
-      width: 330px;
-      height: 220px; 
+      width: 190px;
+      height: 350px; 
       padding: 5px;
-      bottom: 260px;
+      bottom: 310px;
       left: 225px;
     }
 
@@ -472,13 +472,14 @@ h3 {
     } 
     .about-intro {
       position: var(--secondary-position);
-      width: 485px;
-      font-size: 11px;
-      bottom: 50px;
+      width: 350px;
+      font-size: 10px;
+      bottom: 50px; 
     }
 
     .about-intro-text {
-      padding: 20px;
+      height: 290px;
+      width: 350px;
     }
 
     .cards-wrapper {
@@ -500,13 +501,21 @@ h3 {
 
     .form-wrapper {
       position: var(--secondary-position);
-      bottom: 350px;
+      bottom: 200px;
       width: 40%;
-      left: 150px;
+      height: 650px;
+      left: 120px;
       margin: 0 auto;
       transition: 1s ease;
   }
 
+  input[type=submit] {
+    width: 140px;
+  }
+
+  #search-bar {
+    width: 55px;
+  }
   .search-container i {
     bottom: 35px;
     left: 195px;
